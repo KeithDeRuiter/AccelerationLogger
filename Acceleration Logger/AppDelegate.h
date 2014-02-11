@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
+#import <PebbleKit/PebbleKit.h>
+#import "AccelerationLogger.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class ViewController;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    CMMotionManager *_motionManager;
+    AccelerationLogger *accelLoggerPebble;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (readonly) CMMotionManager *motionManager;
+@property (strong, nonatomic) ViewController *viewController;
+
++ (NSString *) applicationDocumentsDirectory;
+-(void) clearFiles;
+
 
 @end

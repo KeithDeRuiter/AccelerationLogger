@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccelerationLogger.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    AccelerationLogger *accelLoggerPhone;
+}
+
+-(void) startMotionDetect;
 
 @end

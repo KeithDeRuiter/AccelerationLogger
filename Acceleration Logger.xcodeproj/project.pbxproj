@@ -21,6 +21,18 @@
 		53322A8818A6FF77008D39A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322A6A18A6FF76008D39A2 /* UIKit.framework */; };
 		53322A9018A6FF77008D39A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53322A8E18A6FF77008D39A2 /* InfoPlist.strings */; };
 		53322A9218A6FF77008D39A2 /* Acceleration_LoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53322A9118A6FF77008D39A2 /* Acceleration_LoggerTests.m */; };
+		53322A9D18A7053D008D39A2 /* AccelerationLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 53322A9C18A7053D008D39A2 /* AccelerationLogger.m */; };
+		53322AA018A70B15008D39A2 /* QuietLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 53322A9F18A70B15008D39A2 /* QuietLog.m */; };
+		53322AA318A769E0008D39A2 /* AccelViz.py in Resources */ = {isa = PBXBuildFile; fileRef = 53322AA218A769E0008D39A2 /* AccelViz.py */; };
+		53322AA618A7AE32008D39A2 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AA418A7AE32008D39A2 /* PebbleVendor.framework */; };
+		53322AAB18A7B4F2008D39A2 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AAA18A7B4F2008D39A2 /* ExternalAccessory.framework */; };
+		53322AAD18A7B502008D39A2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AAC18A7B502008D39A2 /* libz.dylib */; };
+		53322AAF18A7B513008D39A2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AAE18A7B513008D39A2 /* CoreBluetooth.framework */; };
+		53322AB118A7B51E008D39A2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AB018A7B51E008D39A2 /* CoreMotion.framework */; };
+		53322AB318A7B526008D39A2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AB218A7B525008D39A2 /* CFNetwork.framework */; };
+		53322AB518A7B52E008D39A2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AB418A7B52E008D39A2 /* MessageUI.framework */; };
+		53322AB718A7BA3F008D39A2 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AB618A7BA3F008D39A2 /* PebbleKit.framework */; };
+		53322AB818A7BA3F008D39A2 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53322AB618A7BA3F008D39A2 /* PebbleKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,19 @@
 		53322A8D18A6FF77008D39A2 /* Acceleration LoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acceleration LoggerTests-Info.plist"; sourceTree = "<group>"; };
 		53322A8F18A6FF77008D39A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53322A9118A6FF77008D39A2 /* Acceleration_LoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acceleration_LoggerTests.m; sourceTree = "<group>"; };
+		53322A9B18A7053D008D39A2 /* AccelerationLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationLogger.h; sourceTree = "<group>"; };
+		53322A9C18A7053D008D39A2 /* AccelerationLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationLogger.m; sourceTree = "<group>"; };
+		53322A9E18A70B15008D39A2 /* QuietLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuietLog.h; sourceTree = "<group>"; };
+		53322A9F18A70B15008D39A2 /* QuietLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuietLog.m; sourceTree = "<group>"; };
+		53322AA218A769E0008D39A2 /* AccelViz.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AccelViz.py; sourceTree = "<group>"; };
+		53322AA418A7AE32008D39A2 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
+		53322AAA18A7B4F2008D39A2 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		53322AAC18A7B502008D39A2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		53322AAE18A7B513008D39A2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		53322AB018A7B51E008D39A2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		53322AB218A7B525008D39A2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		53322AB418A7B52E008D39A2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		53322AB618A7BA3F008D39A2 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../kiwi-ios-app/Kiwi/PebbleKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53322AB518A7B52E008D39A2 /* MessageUI.framework in Frameworks */,
+				53322AB318A7B526008D39A2 /* CFNetwork.framework in Frameworks */,
+				53322AB118A7B51E008D39A2 /* CoreMotion.framework in Frameworks */,
+				53322AAF18A7B513008D39A2 /* CoreBluetooth.framework in Frameworks */,
+				53322AAD18A7B502008D39A2 /* libz.dylib in Frameworks */,
+				53322AAB18A7B4F2008D39A2 /* ExternalAccessory.framework in Frameworks */,
 				53322A6918A6FF76008D39A2 /* CoreGraphics.framework in Frameworks */,
 				53322A6B18A6FF76008D39A2 /* UIKit.framework in Frameworks */,
+				53322AA618A7AE32008D39A2 /* PebbleVendor.framework in Frameworks */,
 				53322A6718A6FF76008D39A2 /* Foundation.framework in Frameworks */,
+				53322AB718A7BA3F008D39A2 /* PebbleKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53322A8618A6FF77008D39A2 /* XCTest.framework in Frameworks */,
+				53322AB818A7BA3F008D39A2 /* PebbleKit.framework in Frameworks */,
 				53322A8818A6FF77008D39A2 /* UIKit.framework in Frameworks */,
 				53322A8718A6FF77008D39A2 /* Foundation.framework in Frameworks */,
 			);
@@ -82,6 +116,7 @@
 		53322A5A18A6FF76008D39A2 = {
 			isa = PBXGroup;
 			children = (
+				53322AA118A760F8008D39A2 /* Tools */,
 				53322A6C18A6FF76008D39A2 /* Acceleration Logger */,
 				53322A8B18A6FF77008D39A2 /* Acceleration LoggerTests */,
 				53322A6518A6FF76008D39A2 /* Frameworks */,
@@ -101,6 +136,14 @@
 		53322A6518A6FF76008D39A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53322AB618A7BA3F008D39A2 /* PebbleKit.framework */,
+				53322AB418A7B52E008D39A2 /* MessageUI.framework */,
+				53322AB218A7B525008D39A2 /* CFNetwork.framework */,
+				53322AB018A7B51E008D39A2 /* CoreMotion.framework */,
+				53322AAE18A7B513008D39A2 /* CoreBluetooth.framework */,
+				53322AAC18A7B502008D39A2 /* libz.dylib */,
+				53322AAA18A7B4F2008D39A2 /* ExternalAccessory.framework */,
+				53322AA418A7AE32008D39A2 /* PebbleVendor.framework */,
 				53322A6618A6FF76008D39A2 /* Foundation.framework */,
 				53322A6818A6FF76008D39A2 /* CoreGraphics.framework */,
 				53322A6A18A6FF76008D39A2 /* UIKit.framework */,
@@ -112,6 +155,8 @@
 		53322A6C18A6FF76008D39A2 /* Acceleration Logger */ = {
 			isa = PBXGroup;
 			children = (
+				53322A9E18A70B15008D39A2 /* QuietLog.h */,
+				53322A9F18A70B15008D39A2 /* QuietLog.m */,
 				53322A7518A6FF76008D39A2 /* AppDelegate.h */,
 				53322A7618A6FF76008D39A2 /* AppDelegate.m */,
 				53322A7818A6FF76008D39A2 /* Main.storyboard */,
@@ -119,6 +164,8 @@
 				53322A7C18A6FF76008D39A2 /* ViewController.m */,
 				53322A7E18A6FF76008D39A2 /* Images.xcassets */,
 				53322A6D18A6FF76008D39A2 /* Supporting Files */,
+				53322A9B18A7053D008D39A2 /* AccelerationLogger.h */,
+				53322A9C18A7053D008D39A2 /* AccelerationLogger.m */,
 			);
 			path = "Acceleration Logger";
 			sourceTree = "<group>";
@@ -150,6 +197,14 @@
 				53322A8E18A6FF77008D39A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53322AA118A760F8008D39A2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				53322AA218A769E0008D39A2 /* AccelViz.py */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +286,7 @@
 				53322A7F18A6FF76008D39A2 /* Images.xcassets in Resources */,
 				53322A7118A6FF76008D39A2 /* InfoPlist.strings in Resources */,
 				53322A7A18A6FF76008D39A2 /* Main.storyboard in Resources */,
+				53322AA318A769E0008D39A2 /* AccelViz.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				53322A7D18A6FF76008D39A2 /* ViewController.m in Sources */,
+				53322AA018A70B15008D39A2 /* QuietLog.m in Sources */,
+				53322A9D18A7053D008D39A2 /* AccelerationLogger.m in Sources */,
 				53322A7718A6FF76008D39A2 /* AppDelegate.m in Sources */,
 				53322A7318A6FF76008D39A2 /* main.m in Sources */,
 			);
@@ -376,12 +434,21 @@
 		53322A9618A6FF77008D39A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jill Nannizzi (37W3FB34XC)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Keith/Documents/XCode_Workspace/Acceleration\\ Logger",
+					"/Users/Keith/Documents/XCode_Workspace/kiwi-ios-app/Kiwi",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Acceleration Logger/Acceleration Logger-Prefix.pch";
 				INFOPLIST_FILE = "Acceleration Logger/Acceleration Logger-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,12 +456,21 @@
 		53322A9718A6FF77008D39A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jill Nannizzi (37W3FB34XC)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Keith/Documents/XCode_Workspace/Acceleration\\ Logger",
+					"/Users/Keith/Documents/XCode_Workspace/kiwi-ios-app/Kiwi",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Acceleration Logger/Acceleration Logger-Prefix.pch";
 				INFOPLIST_FILE = "Acceleration Logger/Acceleration Logger-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -408,6 +484,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"/Users/Keith/Documents/XCode_Workspace/kiwi-ios-app/Kiwi",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Acceleration Logger/Acceleration Logger-Prefix.pch";
@@ -431,6 +508,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"/Users/Keith/Documents/XCode_Workspace/kiwi-ios-app/Kiwi",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Acceleration Logger/Acceleration Logger-Prefix.pch";
